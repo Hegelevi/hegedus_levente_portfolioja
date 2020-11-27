@@ -1,0 +1,130 @@
+html{
+	background-color: darkslategrey;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+.feherbetu{
+	color: white;
+}
+.fekete{
+	color: black;
+}
+.kartya{
+	max-width: 100%;
+	padding: 32px;
+	margin: 64px;
+	margin-top: 32px;
+	border: 2px solid burlywood;
+	background-color: dimgrey;
+	display: inline-block;
+	border-radius: 32px;
+	font-size: 24px;
+}
+.kartya img{
+	max-width: 35%;
+	max-height: 198px;
+	float: left;
+	padding: 16px;
+	
+}
+#fejlec{
+	margin-left: 32px;
+	margin-bottom: 32px;
+	font-size: 2.5rem;
+}
+#fejlec img{
+	max-height: 104px;
+	margin-right: 32px;
+	float: right;
+}
+.gomb{
+	border: 2px solid burlywood;
+	background-color: tan;
+	display: inline-block;
+	padding: 4px 32px;
+	margin: 8px 2px;
+	border-radius: 4px;
+}
+.gomb:hover{
+	cursor: pointer;
+	background-color: darkseagreen;
+	transition: 1s;
+}
+.nyulas{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.main_resz{
+	padding: 0px 64px;
+}
+.kiemel{
+	text-decoration: underline;
+}
+.sorban{
+	display: block;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+	grid-gap: 32px;
+}
+.lablec{
+	margin: 0px;
+	padding: 32px;
+	background-color: #2F3F3F;
+	color: #5F7F7F;
+}
+#felirat{
+	margin-top: 64px;
+	margin-left: 64px;
+	font-size: 1.2rem;
+	color: beige;
+}
+.kartya2{
+	max-width: 100%;
+	padding: 32px;
+	margin: 64px;
+	margin-top: 32px;
+	border: 2px solid burlywood;
+	background-color: dimgrey;
+	display: inline-block;
+	border-radius: 32px;
+	font-size: 24px;
+}
+.kartya2 img{
+	max-width: 35%;
+	max-height: 198px;
+	float: left;
+	padding: 16px;
+	float: right;
+	margin: 32px;
+}
+.kartya3{
+	padding: 16px;
+	margin-top: 32px;
+	border: 2px solid burlywood;
+	background-color: dimgrey;
+	display: inline-block;
+	border-radius: 32px;
+	font-size: 24px;
+}
+.kartya3 img{
+	max-width: 100%;
+	max-height: 256px;
+	display: block;
+	margin: 0px auto;
+}
+.kartya3:hover img{
+	display: none;
+}
+.rejt{
+	display: none;
+}
+.kartya3:hover p{
+	display: inline-block;
+}
+#terv img{
+	max-height: 1024px;
+	max-width: 70%;
+	display: block;
+	margin: 128px auto;
+}
